@@ -44,8 +44,8 @@ const MainPage = () => {
         <br />
         <br />
         <BrowserRouter> 
-         <Link to= '/ProductPage'>
-       <a href="/ProductPage"><button type="submit" className='btn btn-primary'>ProductPage</button></a>
+         <Link to= '/MainPage/'>
+       <a href="/MainPage"><button type="submit" className='btn btn-primary'>MainPage</button></a>
          </Link> 
         </BrowserRouter> 
       </form>

@@ -13,7 +13,7 @@ const ProductPage = () => {
   return (
     <div className="container">
       {products.map((product) => (
-               <Link to={`/product/${product.id}`} key={product.id} className="btn">
+               <Link to={`/product/${product.id}`} key={product.id} className="button">
         <div className="id">
           <img alt="img" src={product.images[2]} className="images"/>
           <h3>{product.title}</h3>
@@ -22,8 +22,11 @@ const ProductPage = () => {
           <br/>
           <p>{product.discountPercentage}</p>
           </div>
+          <Link to ={`/productDetails`}> <button className="links">See More</button> </Link>
           
           </Link>
+
+          
        
       ))}
     </div>
